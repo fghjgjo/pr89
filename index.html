@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>2 Player Game Login</title>
 </head>
-<body class="vg">
+<body class="bg">
   <div class="container">
     <h2>Login</h2>
-    <form id="loginForm">
+    <form id="loginForm" >
       <label for="player1">Player 1:</label>
-      <input type="text" id="player1" required>
+      <input type="text" id="player1"  class="form-control" placeholder=" Player 1 Name">
 
       <label for="player2">Player 2:</label>
-      <input type="text" id="player2" required>
-
-      <button type="button" onclick="startGame()">Start Game</button>
-    </form>
+      <input type="text" id="player2" class="form-control" placeholder="Player 2 Name" >
+ </form>
+      <button class="btn btn-primary" onclick="addUser()">add user</button>
+    
   </div>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
 

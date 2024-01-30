@@ -18,7 +18,7 @@ body {
     margin-top: 20px;
  
   }
-  .vg{
+  .bg{
     background-image:url(login.avif);
   background-position:center;
 
@@ -27,4 +27,10 @@ body {
     padding: 10px;
     cursor: pointer;
   }
+  #player1,#player2
+{
+  display: inline-block;
+  margin-left: 20px;
+  
+}
   
